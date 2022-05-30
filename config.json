@@ -1,0 +1,21 @@
+{
+    "bot": {
+        "token": "",
+        "client_id": ""
+    },
+    
+    "server": {
+        "guild_id": "",
+        "prefix": "$",
+        "staffrole": ""
+    },
+
+    "log": {
+        "crea": "",
+        "rimuovi": "",
+        "redeem": "",
+        "reset": "",
+        "input": "",
+        "output": ""
+    }
+}

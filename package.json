@@ -1,0 +1,17 @@
+{
+  "name": "auth-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "fleb5",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "discord.js": "^13.7.0",
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  }
+}
