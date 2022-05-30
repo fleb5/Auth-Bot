@@ -32,9 +32,7 @@ npm install
         "crea": "CHANNEL_LOG_ID",
         "rimuovi": "CHANNEL_LOG_ID",
         "redeem": "CHANNEL_LOG_ID",
-        "reset": "CHANNEL_LOG_ID",
-        "input": "CHANNEL_LOG_ID",
-        "output": "CHANNEL_LOG_ID"
+        "reset": "CHANNEL_LOG_ID"
     }
 }
 ```
