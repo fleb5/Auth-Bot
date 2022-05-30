@@ -3,7 +3,7 @@ A simple auth bot developed with discord.js v13
 
 # Commands
 ```
-$creat
+$create
 $createcustom
 $delete
 $reset
