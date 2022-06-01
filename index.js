@@ -143,7 +143,7 @@ client.on("message", message => {
             
                     function createsto() {
                         var testo = "";
-                        var characters      = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+                        var characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
                         for (var i = 0; i < 4; i++){
                             for(var j = 0; j < 4; j++)
