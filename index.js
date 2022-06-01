@@ -142,19 +142,17 @@ client.on("message", message => {
                         message.reply("You don't have enough privileges!");
             
                     function createsto() {
-                        var v1 = "", v2 = "", v3 = "", v4 = "";
+                        var testo = "";
                         var characters      = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
 
-                        for (var i = 0; i < 4; i++)
-                            v1 += characters.charAt(Math.floor(Math.random() * characters.length));
-                        for (var i = 0; i < 4; i++)
-                            v2 += characters.charAt(Math.floor(Math.random() * characters.length));
-                        for (var i = 0; i < 4; i++)
-                            v3 += characters.charAt(Math.floor(Math.random() * characters.length));
-                        for (var i = 0; i < 4; i++)
-                            v4 += characters.charAt(Math.floor(Math.random() * characters.length));
+                        for (var i = 0; i < 4; i++){
+                            for(var j = 0; j < 4; j++)
+                                testo += characters.charAt(Math.floor(Math.random() * characters.length));
+                            if(i != 3)
+                                testo += "-"
+                        }
 
-                        return v1 + '-' + v2 + '-' + v3 + '-' + v4;
+                        return testo;
                     }
                     break;
                 case "createcustom":
